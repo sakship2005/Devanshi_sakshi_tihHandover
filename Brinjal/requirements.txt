@@ -1,0 +1,19 @@
+# Cotton Image Preprocessing Requirements
+# Minimal dependencies for preprocessing pipeline
+
+# Core dependencies for preprocessing
+opencv-python     # Image processing (cv2) - for resize, geometric transforms, hashing
+numpy            # Array operations and mathematical computations
+tqdm             # Progress bars for batch processing
+
+# Optional: For model training
+--index-url https://download.pytorch.org/whl/cu121
+torch
+torchvision
+torchaudio
+pandas
+scikit-learn
+Pillow
+matplotlib
+seaborn
+openpyxl

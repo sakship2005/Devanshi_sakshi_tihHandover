@@ -1,0 +1,101 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+.genai_env/
+.genai/
+
+# VS Code and IDE configs
+.vscode/
+.idea/
+*.code-workspace
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache and logs
+*.log
+*.tmp
+*.bak
+*.swp
+.DS_Store
+
+# Environment variables
+.env
+.env.*
+
+# Data folders
+dataset/
+data/
+processed_dataset/
+*.csv
+*.json
+*.xlsx
+*.zip
+
+# Model files
+models/
+*.h5
+*.pt
+*.pth
+*.pkl
+*.joblib
+*.onnx
+
+# Outputs and results
+outputs/
+results/
+runs/
+checkpoints/
+logs/
+mlruns/
+
+# Temporary or auto-generated files
+temp/
+tmp/
+__temp__/
+*.npy
+*.npz
+
+# Build and distribution folders
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# OS-specific files
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Render / Deployment related
+*.db
+*.sqlite3
+
+# FastAPI / Streamlit / Flask cache
+*.db
+*.log
+*.pid
+.cache/
+__pycache__/
+
+# Ignore large media files (optional)
+*.mp4
+*.avi
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+*.bmp
+
+# MLflow and experiment tracking
+mlruns/
+wandb/
+tensorboard_logs/
+index.html
